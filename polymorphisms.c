@@ -123,7 +123,7 @@ char* findSequence(char *  polymorphism, FILE * infp)
     {
         ch = getc(infp);
     }
-    for (int i = pos; i < pos + 12; i++)
+    for (int i = pos; i < pos + 15; i++)
     {
         ch = getc(infp);
         polymorphism[c] = ch;
